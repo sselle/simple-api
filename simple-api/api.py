@@ -25,7 +25,7 @@ def get_assets():
 @app.route('/', methods=['GET'])
 def home():
     print('listening...')
-    return "<h1>API Example</h1><p>for timeseries and asset data</p>"
+    return "<h1>API Example</h1><p>for timeseries and asset data </p>"
 
 @app.route('/timeseries/', methods=['GET'])
 def timeseries():
